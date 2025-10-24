@@ -1,3 +1,7 @@
+\\\\\ Program skompilowany przy użyciu kompilatora Clang. Korzystałem z edytora MS Visual Studio Code \\\\\
+
+
+
 C:\Users\X\Desktop\praca C>clang -Wall zad1.c
 zad1.c:7:4: warning: 'scanf' is deprecated: This function or variable may be unsafe. Consider using scanf_s instead. To
       disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [-Wdeprecated-declarations]
@@ -19,9 +23,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.3520
 
 
 
-Sposób uruchomienia:
+Sposób uruchomienia oraz przykłady danych:
 
 C:\Users\X\Desktop\praca C>zad1.exe
 Podaj predkosc wiatru w m/s: 2
 B=1 (Light Air)
+C:\Users\X\Desktop\praca C>
+
+C:\Users\X\Desktop\praca C>zad1.exe
+Podaj predkosc wiatru w m/s: 3
+B=2 (Light Breeze)
 C:\Users\X\Desktop\praca C>
