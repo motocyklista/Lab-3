@@ -16,3 +16,12 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.3520
   358 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
       |                                               ^
 1 warning generated.
+
+
+
+Sposób uruchomienia:
+
+C:\Users\X\Desktop\praca C>zad1.exe
+Podaj predkosc wiatru w m/s: 2
+B=1 (Light Air)
+C:\Users\X\Desktop\praca C>
