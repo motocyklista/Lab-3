@@ -26,7 +26,7 @@ Prosty program napisany w języku C, który oblicza **BMI (Body Mass Index)** na
 Program skompilowany przy użyciu **clang-cl**:
 
 ```bash
-C:\Users\X\Desktop\praca C> clang-cl bmi.c
+C:\Users\X\Desktop\homework> clang-cl bmi.c
 ```
 
 > ⚠️ Podczas kompilacji pojawiają się ostrzeżenia dotyczące funkcji `scanf`:
@@ -47,7 +47,7 @@ C:\Users\X\Desktop\praca C> clang-cl bmi.c
 ## Uruchomienie programu
 
 ```bash
-C:\Users\X\Desktop\praca C>bmi.exe
+C:\Users\X\Desktop\homework>bmi.exe
 ```
 
 Program poprosi o dane i wyświetli wynik BMI.
