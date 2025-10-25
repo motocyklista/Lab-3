@@ -80,3 +80,12 @@ BMI ≈ 20.2 --> prawidłowe
 * **System:** Windows
 
 ```
+## 👤 Autor
+
+* **Imię / Pseudonim:** Piotr
+* **Rok:** 2025
+* **Środowisko:** Visual Studio Code + Clang
+
+```
+
+
