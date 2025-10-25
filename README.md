@@ -52,13 +52,13 @@ Program poprosi o podanie prędkości wiatru w m/s i zwróci klasę wiatru:
 ### Przykłady działania
 
 ```
-C:\Users\X\Desktop\praca C>zad1.exe
+C:\Users\X\Desktop\homework>zad1.exe
 Podaj predkosc wiatru w m/s: 2
 B=1 (Light Air)
 ```
 
 ```
-C:\Users\X\Desktop\praca C>zad1.exe
+C:\Users\X\Desktop\homework>zad1.exe
 Podaj predkosc wiatru w m/s: 3
 B=2 (Light Breeze)
 ```
