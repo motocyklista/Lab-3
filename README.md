@@ -1,36 +1,89 @@
-\\\\\ Program skompilowany przy użyciu kompilatora Clang. Korzystałem z edytora MS Visual Studio Code \\\\\
+# Program: Klasyfikacja siły wiatru
 
+Program napisany w języku C, który klasyfikuje siłę wiatru według podanej prędkości w m/s. Program przypisuje klasę B i nazwę odpowiadającą standardowej skali Beauforta.
 
+---
 
-C:\Users\X\Desktop\praca C>clang -Wall zad1.c
-zad1.c:7:4: warning: 'scanf' is deprecated: This function or variable may be unsafe. Consider using scanf_s instead. To
-      disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [-Wdeprecated-declarations]
-    7 |    scanf("%f", &v_ms);
-      |    ^
-C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\stdio.h:1275:20: note: 'scanf' has been explicitly
-      marked deprecated here
- 1275 |     _Check_return_ _CRT_INSECURE_DEPRECATE(scanf_s)
-      |                    ^
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vcruntime.h:368:55: note:
-      expanded from macro '_CRT_INSECURE_DEPRECATE'
-  368 |         #define _CRT_INSECURE_DEPRECATE(_Replacement) _CRT_DEPRECATE_TEXT(    \
-      |                                                       ^
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vcruntime.h:358:47: note:
-      expanded from macro '_CRT_DEPRECATE_TEXT'
-  358 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
-      |                                               ^
-1 warning generated.
+## Informacje techniczne
 
+- **Język:** C  
+- **Edytor:** Microsoft Visual Studio Code  
+- **Kompilator:** Clang (`clang -Wall`)  
+- **System:** Windows  
 
+> 💡 Program skompilowany przy użyciu kompilatora Clang. Korzystałem z edytora MS Visual Studio Code.
 
-Sposób uruchomienia oraz przykłady danych:
+---
 
+## Kompilacja
+
+Aby skompilować program, w terminalu uruchom:
+
+```bash
+clang -Wall zad1.c
+````
+
+Podczas kompilacji może pojawić się ostrzeżenie:
+
+```
+warning: 'scanf' is deprecated: This function or variable may be unsafe. Consider using scanf_s instead.
+```
+
+Jest to normalne w środowisku Visual Studio. Możesz je zignorować lub użyć `scanf_s`. Aby wyłączyć ostrzeżenie, dodaj na początku pliku:
+
+```c
+#define _CRT_SECURE_NO_WARNINGS
+```
+
+---
+
+## Uruchomienie programu
+
+Po kompilacji uruchom plik wykonywalny:
+
+```bash
+zad1.exe
+```
+
+Program poprosi o podanie prędkości wiatru w m/s i zwróci klasę wiatru:
+
+---
+
+### Przykłady działania
+
+```
 C:\Users\X\Desktop\praca C>zad1.exe
 Podaj predkosc wiatru w m/s: 2
 B=1 (Light Air)
-C:\Users\X\Desktop\praca C>
+```
 
+```
 C:\Users\X\Desktop\praca C>zad1.exe
 Podaj predkosc wiatru w m/s: 3
 B=2 (Light Breeze)
-C:\Users\X\Desktop\praca C>
+```
+
+---
+
+## Działanie programu
+
+1. Program prosi użytkownika o podanie prędkości wiatru w **m/s**.
+2. Na podstawie wartości prędkości wiatru przypisuje klasę wiatru i nazwę według skali Beauforta.
+3. Wyświetla wynik w formacie:
+
+```
+B=<klasa> (<nazwa>)
+```
+
+---
+
+## 👤 Autor
+
+* **Imię / Pseudonim:** Piotr
+* **Rok:** 2025
+* **Środowisko:** Visual Studio Code + Clang
+
+```
+
+---
+
