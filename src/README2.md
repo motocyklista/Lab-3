@@ -9,20 +9,15 @@ Prosty program napisany w języku C, który oblicza **BMI (Body Mass Index)** na
 
 ---
 
-## Opis działania programu
 
-1. Program prosi użytkownika o podanie wzrostu w centymetrach.
-2. Konwertuje wzrost na metry.
-3. Program prosi użytkownika o podanie wagi w kilogramach.
-4. Oblicza BMI według wzoru:
+## Informacje techniczne
 
-```
+- **Język:** C  
+- **Edytor:** Microsoft Visual Studio Code  
+- **Kompilator:** Clang (`clang -Wall`)  
+- **System:** Windows  
 
-BMI = waga[kg] / (wzrost[m])^2
-
-````
-
-5. Wyświetla odpowiednią kategorię w zależności od wyniku.
+> 💡 Program skompilowany przy użyciu kompilatora Clang. Korzystałem z edytora MS Visual Studio Code.
 
 ---
 
@@ -57,7 +52,9 @@ C:\Users\X\Desktop\praca C>bmi.exe
 
 Program poprosi o dane i wyświetli wynik BMI.
 
-### Przykłady danych i wyników:
+---
+
+### Przykłady działania
 
 ```
 Podaj wzrost w centymetrach: 187
@@ -73,13 +70,25 @@ BMI ≈ 20.2 --> prawidłowe
 
 ---
 
-## Środowisko
+## Działanie programu
 
-* **Edytor:** Visual Studio Code
-* **Kompilator:** clang-cl
-* **System:** Windows
+
+1. Program prosi użytkownika o podanie wzrostu w centymetrach.
+2. Konwertuje wzrost na metry.
+3. Program prosi użytkownika o podanie wagi w kilogramach.
+4. Oblicza BMI według wzoru:
 
 ```
+
+BMI = waga[kg] / (wzrost[m])^2
+
+````
+
+5. Wyświetla odpowiednią kategorię w zależności od wyniku.
+
+
+---
+
 ## 👤 Autor
 
 * **Imię / Pseudonim:** Piotr
